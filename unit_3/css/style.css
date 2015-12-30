@@ -1,0 +1,18 @@
+#slogan{
+	font-style: italic;
+}
+
+body {
+	text-align: center;
+	background: url("../images/rallywithblue.jpg");
+	background-size: cover;
+	color: #051970;
+	font-size: 20px;
+}
+a {
+	color: #000;
+}
+
+h1 {
+	font-size: 60px;
+}
