@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Henny+Penny);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h1 {
+	font-family: 'Henny Penny', cursive;
+	font-size: 50px;
+	color: #000;
+}
+
+#slogan{
+	font-style: bold;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background: url("../images/rallywithblue.jpg");
+	background-size: cover;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #f00;
+}
