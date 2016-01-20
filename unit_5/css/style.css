@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: #000;
+}
+
+#slogan{
+	font-style: bold;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background: url("../images/rallywithblue.jpg");
+	background-size: cover;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #f00;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
