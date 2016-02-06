@@ -56,6 +56,7 @@ figcaption {
 
 figure:hover > figcaption{
 	display: block;
+	font-size: 2em;
 }
 
 footer 	{
@@ -79,9 +80,9 @@ footer 	{
 }
 
 #figure-wrap{
-	/*background:yellow;*/
-	width:1020px;
-	margin:20px auto 60px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 a:link {
@@ -95,4 +96,26 @@ a:visited {
 
 a:hover {
 	color: #f00;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid; 
+	padding: 20px;
+	float: right;
+	width: 62%;
 }
