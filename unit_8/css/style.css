@@ -1,40 +1,47 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,900italic,700);
+@import url(https://fonts.googleapis.com/css?family=Life+Savers:400,700);
 
-*{
+* {
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
-}
-
-h1 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 900;
-	font-style: italic;
-	border: 1px black solid;
-    padding: 20px;
-    display: center;
-	font-size: 50px;
-	color: #000;
-}
-
-p {
-	font-size: 25px;
-	
+	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Life Savers', cursive;
 	font-weight: 400;
 	color: #000;
 	font-size: 20px;
 	line-height: 1.5em;
 }
+h1 {
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+    padding: .5em;
+    margin: auto;
+    letter-spacing: 0.8em;
+}
+
+h2 {
+    font-family: 'Life Savers', cursive;
+    font-weight: 900;
+    font-style: italic;
+    padding: .5em;
+    margin: 0 6em 0 6em;
+    font-size: 2.5em;
+    color: #000;
+}
+
+p {
+    font-size: .9em;
+    letter-spacing: -.025em;
+}
 
 figure {
-	width:389px;
-	margin: 15px;
-    border: 1px black solid;
-    padding: 10px;
+    width: 382px;
+    margin: 0.76em;
+    border: .01em black solid;
+    padding: .5em;
     float: left;
     position: relative;
 }
@@ -65,7 +72,6 @@ figure:hover > figcaption{
 }
 
 footer 	{
-	border: 1px black solid;
 	padding: 20px;
 	color: #000;
 	font-family: 'Josefin', sans-serif;
@@ -107,7 +113,3 @@ a:hover {
 	padding: 20px;
 }
 
-#two_column {
-	border: 1px black solid;
-	padding: 20px;
-}
