@@ -189,6 +189,12 @@ a:hover {
             letter-spacing: .1em;
             text-align: center;
 }
+
+        .wrap {
+            width: 100%;
+            margin: auto;
+            background: #fff;
+}
 }
 
 @media only screen and (max-width:520px) {
@@ -223,6 +229,12 @@ a:hover {
             padding: .5em;
             float: left;
             position: relative;
+}
+
+        .wrap {
+            width: 100%;
+            margin: auto;
+            background: #fff;
 }
 }
 
