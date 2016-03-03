@@ -1,17 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Life+Savers:400,700);
 
 * {
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Life Savers', cursive;
-	font-weight: 400;
-	color: #000;
-	font-size: 20px;
-	line-height: 1.5em;
+    font-family: 'Life Savers', cursive;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5em;
 }
 h1 {
     font-size: 1em;
@@ -19,6 +19,7 @@ h1 {
     font-style: italic;
     position: relative;
     padding: .5em;
+    width: 100%;
     margin: auto;
     letter-spacing: 0.15em;
     text-align: center;
@@ -29,6 +30,7 @@ h2 {
     font-weight: 900;
     font-style: italic;
     padding: .5em;
+    width: 100%;
     margin: auto;
     font-size: 2.5em;
     color: #000;
@@ -42,18 +44,19 @@ p {
 }
 
 figure {
-    width: 28%;
-    margin: 0.76em;
-    border: .01em black solid;
+    width: 33.33%;
+    margin: auto;
+    border: 1px solid transparent;
     padding: .5em;
     float: left;
     position: relative;
 }
-	
+    
 figure img {
-	display: block;
+    display: block;
     width: 100%;
     height: 100%;
+    margin: auto;
 } 
 
 figcaption {
@@ -72,43 +75,154 @@ figcaption {
 }
 
 figure:hover > figcaption{
-	display: block;
-	font-size: 2em;
+    display: block;
+    font-size: 2em;
 }
 
-footer 	{
-	padding: 1em;
-	color: #000;
-	font-family: 'Josefin', sans-serif;
-	font-size: .75em;
-	font-weight:400;
-	text-align:center;
-	text-decoration: none;
+footer  {
+    padding: 1em;
+    color: #000;
+    font-family: 'Josefin', sans-serif;
+    font-size: .75em;
+    font-weight:400;
+    text-align:center;
+    text-decoration: none;
 }
 
 a:link {
-	text-decoration: none;
-	color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .clearfix:after{
-	height: 0;
-	font-size:0;
-	visibility: hidden;
-	display: block;
-	content:" ";
-	clear: both;
+    height: 0;
+    font-size:0;
+    visibility: hidden;
+    display: block;
+    content:" ";
+    clear: both;
 }
 
 .imgContainer:hover img{
-	opacity: 0.4;
+    opacity: 0.4;
+}
+
+.wrap {
+    width: 74%;
+    margin: auto;
+    background: #fff;
 }
 
 #figure-wrap {
-    padding: 1% 0% 1% 9%;
-    position: relative;
+    width: 100%;
+    margin: auto;
+    background: #fff;
 }
+
+#head-wrap {
+    width:100%;
+    background: #fff;
+}
+
+#body-wrap {
+    width: 100%;
+    background: #fff;
+}
+
+#foot-wrap {
+    width:100%;
+    background: #E2E0E2;
+}
+
+@media only screen and (max-width: 999px) {
+    figure {
+        width: 50%;
+        margin: auto;
+        border: 1px solid transparent;
+        padding: .5em;
+        float: left;
+        position: relative;
+}
+}
+
+@media only screen and (max-width: 870px) {
+        h2 {
+            font-family: 'Life Savers', cursive;
+            font-weight: 900;
+            font-style: italic;
+            padding: .5em;
+            width: 100%;
+            margin: auto;
+            font-size: 2em;
+            color: #000;
+            letter-spacing: .1em;
+            text-align: center;
+}
+}
+
+@media only screen and (max-width:700px) {
+        h1 {
+            font-size: .9em;
+            font-weight: 700;
+            font-style: italic;
+            position: relative;
+            padding: .2em;
+            width: 100%;
+            margin: auto;
+            letter-spacing: 0.15em;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Life Savers', cursive;
+            font-weight: 900;
+            font-style: italic;
+            padding: .5em;
+            width: 100%;
+            margin: auto;
+            font-size: 1.4em;
+            color: #000;
+            letter-spacing: .1em;
+            text-align: center;
+}
+}
+
+@media only screen and (max-width:520px) {
+        h1 {
+            font-size: .9em;
+            font-weight: 700;
+            font-style: italic;
+            position: relative;
+            padding: .2em;
+            width: 100%;
+            margin: auto;
+            letter-spacing: 0.15em;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Life Savers', cursive;
+            font-weight: 900;
+            font-style: italic;
+            padding: .5em;
+            width: 100%;
+            margin: auto;
+            font-size: 1.4em;
+            color: #000;
+            letter-spacing: .1em;
+            text-align: center;
+}
+        figure {
+            width: 100%;
+            margin: auto;
+            border: 1px solid transparent;
+            padding: .5em;
+            float: left;
+            position: relative;
+}
+}
+
