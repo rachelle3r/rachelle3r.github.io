@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px; /*16px = 1em*/
+}
+header {
+    background: #fff;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    color: #00f;
+    font-size: 4.5em;
+    font-weight: lighter;
+    padding: 4px;
+    margin: 0px 20px -26px;
+    width: 29%;
+    background: #F3D7AE;
+}
+
+h2 {
+    color: #f00;
+    padding-top: 0px;
+    width: 19%;
+    margin: 0 0 0 9em;
+    background: #F3D7AE
+}
+
+nav{
+    background: #F3D7AE;
+}
+
+li {
+    float: right;
+    padding: 10px;
+    padding-bottom: 1px;
+    list-style: none;
+    background: #F3D8AE;
+}
+
+footer {
+    background: #539C96;
+
+}
+
+.aboutimg {
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 2em 3.5em 0 1em;
+}
+
+
+.wrap {
+    background: pink;
+    width: 100%;
+}
+
+.wrap img {
+    width:100%;
+    display: block;
+}
+
+.about {
+	background: #539C96;
+}
+
+.donate {
+    background: #539C96;
+}
+
+.aboutimg {
+	width: 25%;
+}
+
+.clearfix:after{
+    height: 0;
+    font-size:0;
+    visibility: hidden;
+    display: block;
+    content:" ";
+    clear: both;
+}
